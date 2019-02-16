@@ -1,0 +1,13 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "gsvr-announcements-client-side-solution",
+    "id": "00eab0fa-ab53-48f9-b93c-4558f66bcb84",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/gsvr-announcements.sppkg"
+  }
+}

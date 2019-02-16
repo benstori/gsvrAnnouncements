@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "gsvr-announcements-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/gsvrAnnouncements/GsvrAnnouncementsWebPart.js",
+          "manifest": "./src/webparts/gsvrAnnouncements/GsvrAnnouncementsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GsvrAnnouncementsWebPartStrings": "lib/webparts/gsvrAnnouncements/loc/{locale}.js"
+  }
+}
